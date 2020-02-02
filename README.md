@@ -53,6 +53,12 @@ docker run -d \
   runnable/redis-stunnel
 ```
 
+## Environment variables
+Use the following env variables to modify your stunnel configuration :
+REDIS_PORT_6379_TCP_ADDR : hostname of Redis server endpoint
+REDIS_PORT_6379_TCP_PORT : port of Redis server endpoint
+REDIS_STUNNEL_CLIENT_MODE : [yes|no] client vs server mode
+
 ## Testing the Setup
 
 To test the `stunnel` setup, run the following NodeJS script. It should print out `[]` (an empty list) if it is a clean Redis server, but would otherwise print out all the keys on the server.

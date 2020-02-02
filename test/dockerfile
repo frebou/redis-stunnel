@@ -1,3 +1,0 @@
-from ruby
-ADD ./index.js /index.js
-CMD sleep 1000
