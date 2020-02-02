@@ -53,11 +53,12 @@ docker run -d \
   runnable/redis-stunnel
 ```
 
-## Environment variables
+### Environment variables
 Use the following env variables to modify your stunnel configuration :
-REDIS_PORT_6379_TCP_ADDR : hostname of Redis server endpoint
-REDIS_PORT_6379_TCP_PORT : port of Redis server endpoint
-REDIS_STUNNEL_CLIENT_MODE : [yes|no] client vs server mode
+
+- REDIS_PORT_6379_TCP_ADDR : hostname of Redis server endpoint
+- REDIS_PORT_6379_TCP_PORT : port of Redis server endpoint
+- REDIS_STUNNEL_CLIENT_MODE : [yes|no] client vs server mode
 
 ## Testing the Setup
 
