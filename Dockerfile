@@ -6,7 +6,6 @@ EXPOSE 6380
 RUN apt-get update && apt-get install -y stunnel4
 
 VOLUME /stunnel
-ADD ./stunnel.conf /stunnel/
 ADD ./generateconfig.sh /
 ADD ./start.sh /
 
